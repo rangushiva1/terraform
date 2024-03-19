@@ -1,0 +1,4 @@
+resource "aws_key_pair" "ssh_key" {
+  key_name   = "shiva_demo"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHgBlql/7L4hJuBCBnCuwHA0ckpWrWWPK7vSlTia7j6JuVshrx/oeRPIuFf4QblphZXHFC7z8uSrhW3aPnG14hqtjnOw8XMegIX2koI5UyOeD8K7LUkivwXO4k3lI4wPBOmm2eio9LRH9yB73QTupCBr3VtVF9mLDWO/HSHeioUiZk5eI8JJlxe+EpxATaWFfarVVJjrdS1YA65UQNo3v48RuTsGYEHXw8NscJgIsCpH2ebDAsIUv60CfaE09Qfou5FEeri0pDwHT3LpP920LRWYb23OUG+q+uyKxgjZDzTSq6ceLRBoM+RYkY7v1mITiKybI2dgUwAFVc4XNgRR3R rsa-key-20240319"
+}
