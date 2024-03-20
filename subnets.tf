@@ -8,3 +8,17 @@ resource "aws_subnet" "publicsubnet01block" {
     Name = "PublicSubnet01Block"
   }
 }
+<<<<<<< HEAD
+
+resource "aws_subnet" "publicsubnet02block" {
+  vpc_id                  = aws_vpc.vpc_eks.id
+  cidr_block              = "192.168.0.0/18"
+  map_public_ip_on_launch = "true"
+  availability_zone       = "us-east-1b"
+
+  tags = {
+    Name = "PublicSubnet02Block"
+  }
+}
+=======
+>>>>>>> 4096f97311b130796eafe35f8377c39c5c20e6a4
