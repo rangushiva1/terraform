@@ -8,7 +8,7 @@ resource "aws_subnet" "publicsubnet01block" {
     Name = "PublicSubnet01Block"
   }
 }
-<<<<<<< HEAD
+
 
 resource "aws_subnet" "publicsubnet02block" {
   vpc_id                  = aws_vpc.vpc_eks.id
@@ -20,5 +20,4 @@ resource "aws_subnet" "publicsubnet02block" {
     Name = "PublicSubnet02Block"
   }
 }
-=======
->>>>>>> 4096f97311b130796eafe35f8377c39c5c20e6a4
+
